@@ -93,6 +93,11 @@ li {
     gap: 15px;
 }
 
+.links ul li:nth-child(6) p a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
 .tecnologies {
     display: flex;
     align-items: flex-start;
@@ -163,9 +168,9 @@ li {
 }
 
 .my-projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 30px !important;
 }
 
 .my-projects a {
@@ -291,6 +296,10 @@ li {
 .recent-posts a {
     text-decoration: none;
     color: var(--text-color);
+}
+
+.my-projects a:nth-child(1) {
+    display: none;
 }
 
 footer {
